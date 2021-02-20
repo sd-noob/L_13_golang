@@ -1,4 +1,4 @@
-//Example -5:
+//Example -6:
 
 package main
 
