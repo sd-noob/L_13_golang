@@ -4,15 +4,15 @@ package main
 
 import "fmt"
 
-func rectangle(l int, b int) (area int, parameter int) {
-	parameter = 2 * (l + b)
-	area = l * b
-	return // Return statement without specify variable name
+func update(a *int , t * string) {
+	*a = *a + 5
+	*t = *t + "Doe"
+	return 
 }
 
 func main() {
-	var a, p int
-	a, p = rectangle(20, 30)
-	fmt.Println("Area:", a)
-	fmt.Println("Parameter:", p)
+	number := 10
+	name :="Sourav"
+	update(&number , &name)
+	fmt.Println(number, name)
 }
