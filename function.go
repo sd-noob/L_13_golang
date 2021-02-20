@@ -1,10 +1,10 @@
-//Example -1:
+//Example -2:
 
 package main
 
 import "fmt"
 
-func add(x int , y int) int{
+func add(x , y int) int{
 r :=x+y
 return r
 }
